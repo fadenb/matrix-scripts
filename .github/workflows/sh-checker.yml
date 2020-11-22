@@ -2,10 +2,10 @@ name: sh-checker
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
-        
+    branches: [ main ]
+
 jobs:
   sh-checker:
     runs-on: ubuntu-latest
